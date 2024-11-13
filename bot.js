@@ -10,7 +10,7 @@ const axios = require('axios');
 const fs = require('fs');
 const apiKey = '81fbce832e95946103d98af4'; 
 // Replace 'YOUR_TELEGRAM_BOT_TOKEN' with your bot token
-const bot = new TelegramBot('7260720134:AAFy1oJXLE7MbgGkbDPJvkoyDpvEB7nab', { polling: true });
+const bot = new TelegramBot('7260720134:AAFy1oJXLE7MbgGkbDPJvkoyDpvEB7nQBTI', { polling: true });
 
 // Set up a list for tracking muted users
 const mutedUsers = new Set();
